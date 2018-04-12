@@ -1,0 +1,11 @@
+#
+# [ Database Configuration Section ]
+#
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+  thymeleaf:
+    cache: false
+
